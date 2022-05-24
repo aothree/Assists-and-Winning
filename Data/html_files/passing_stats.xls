@@ -1,0 +1,78 @@
+<div class="nba-stat-table">
+  <div class="nba-stat-table__overflow" data-fixed="1" role="grid">
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th sort cf class="team" data-field="TEAM_NAME"><br />Team</th>
+            <th sort cf data-field="GP">GP</th>
+            <th sort cf data-field="W">W</th>
+            <th sort cf data-field="L">L</th>
+            <th sort cf data-field="MIN">MIN</th>
+            <th sort cf data-field="PASSES_MADE">Passes<br />Made</th>
+            <th sort cf data-field="PASSES_RECEIVED">Passes<br />Received</th>
+            <th sort cf data-field="AST">AST</th>
+            <!-- <th sort cf data-field="FT_AST">FT<br />AST</th> -->
+            <th sort cf data-field="SECONDARY_AST">Secondary<br />AST</th>
+            <th sort cf data-field="POTENTIAL_AST">Potential<br />AST</th>
+            <th
+              sort
+              cf
+              data-field="AST_PTS_CREATED"
+              ng-show="params.PerMode=='Totals'"
+            >
+              AST&nbsp;PTS<br />Created
+            </th>
+            <th
+              sort
+              cf
+              data-field="AST_POINTS_CREATED"
+              ng-show="params.PerMode=='PerGame'"
+            >
+              AST&nbsp;PTS<br />Created
+            </th>
+            <th sort cf data-field="AST_ADJ">AST<br />Adj</th>
+            <th sort cf data-field="AST_TO_PASS_PCT">AST&nbsp;To<br />Pass%</th>
+            <th sort cf data-field="AST_TO_PASS_PCT_ADJ">
+              AST&nbsp;To<br />Pass%&nbsp;Adj
+            </th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr
+            data-ng-repeat="(i, row) in page track by row.$hash"
+            index="{{ ::i }}"
+          >
+            <td class="team">
+              <a
+                ng-href="/stats/team/{{ ::row.TEAM_ID }}/passes-dash/?Season={{ params.Season }}&SeasonType={{ params.SeasonType }}"
+                >{{ ::row.TEAM_NAME }}</a
+              >
+            </td>
+            <td>{{ ::row.GP }}</td>
+            <td>{{ ::row.W }}</td>
+            <td>{{ ::row.L }}</td>
+            <td>{{ ::row.MIN | permode:params.PerMode }}</td>
+            <td>{{ ::row.PASSES_MADE | permode:params.PerMode }}</td>
+            <td>{{ ::row.PASSES_RECEIVED | permode:params.PerMode }}</td>
+            <td>{{ ::row.AST | permode:params.PerMode }}</td>
+            <!-- <td>{{ ::row.FT_AST | permode:params.PerMode  }}</td> -->
+            <td>{{ ::row.SECONDARY_AST | permode:params.PerMode }}</td>
+            <td>{{ ::row.POTENTIAL_AST | permode:params.PerMode }}</td>
+            <td ng-show="params.PerMode=='Totals'">
+              {{ ::row.AST_PTS_CREATED | permode:params.PerMode }}
+            </td>
+            <td ng-show="params.PerMode=='PerGame'">
+              {{ ::row.AST_POINTS_CREATED | permode:params.PerMode }}
+            </td>
+            <td>{{ ::row.AST_ADJ | permode:params.PerMode }}</td>
+            <td>{{ ::row.AST_TO_PASS_PCT | percent }}</td>
+            <td>{{ ::row.AST_TO_PASS_PCT_ADJ | percent }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!-- .stat-table -->
+</div>

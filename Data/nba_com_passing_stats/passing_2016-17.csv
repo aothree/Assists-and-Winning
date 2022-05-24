@@ -1,0 +1,31 @@
+,team_abbr,team,G,W,L,passes_made,asst,secondary_asst,potential_asst,year
+0,ATL,Atlanta Hawks,82,43,39,310.0,23.6,3.2,46.8,2016-17
+1,BOS,Boston Celtics,82,53,29,324.6,25.2,3.6,49.2,2016-17
+2,BKN,Brooklyn Nets,81,20,61,311.0,21.4,2.5,45.4,2016-17
+3,CHA,Charlotte Hornets,82,36,46,291.2,23.1,3.4,47.8,2016-17
+4,CHI,Chicago Bulls,82,41,41,304.5,22.6,2.5,45.2,2016-17
+5,CLE,Cleveland Cavaliers,82,51,31,275.3,22.7,3.4,45.1,2016-17
+6,DAL,Dallas Mavericks,81,32,49,296.8,20.7,2.5,44.4,2016-17
+7,DEN,Denver Nuggets,81,39,42,296.3,25.2,2.9,47.5,2016-17
+8,DET,Detroit Pistons,82,37,45,278.5,21.1,2.1,43.0,2016-17
+9,GSW,Golden State Warriors,82,67,15,317.7,30.4,4.6,56.3,2016-17
+10,HOU,Houston Rockets,82,55,27,267.4,25.2,2.5,50.7,2016-17
+11,IND,Indiana Pacers,81,42,39,286.4,22.4,2.9,47.4,2016-17
+12,LAC,LA Clippers,82,51,31,301.7,22.5,2.9,43.2,2016-17
+13,LAL,Los Angeles Lakers,82,26,56,288.4,20.9,2.2,42.7,2016-17
+14,MEM,Memphis Grizzlies,82,43,39,303.3,21.3,3.1,46.4,2016-17
+15,MIA,Miami Heat,82,41,41,283.4,21.2,2.8,45.9,2016-17
+16,MIL,Milwaukee Bucks,82,42,40,289.0,24.2,3.1,47.5,2016-17
+17,MIN,Minnesota Timberwolves,82,31,51,285.4,23.7,2.7,45.4,2016-17
+18,NOP,New Orleans Pelicans,82,34,48,298.4,22.8,2.4,46.2,2016-17
+19,NYK,New York Knicks,82,31,51,326.6,21.8,2.9,47.2,2016-17
+20,OKC,Oklahoma City Thunder,82,47,35,255.3,21.0,2.1,45.7,2016-17
+21,ORL,Orlando Magic,82,29,53,295.9,22.2,3.0,49.3,2016-17
+22,PHI,Philadelphia 76ers,82,28,54,352.4,23.8,2.7,49.4,2016-17
+23,PHX,Phoenix Suns,80,23,57,297.7,19.6,2.1,43.4,2016-17
+24,POR,Portland Trail Blazers,82,41,41,277.4,21.1,2.5,44.1,2016-17
+25,SAC,Sacramento Kings,82,32,50,317.6,22.5,2.6,46.2,2016-17
+26,SAS,San Antonio Spurs,81,61,20,316.3,23.9,3.3,45.2,2016-17
+27,TOR,Toronto Raptors,81,50,31,273.4,18.5,2.6,39.2,2016-17
+28,UTA,Utah Jazz,82,51,31,314.9,20.1,2.7,42.6,2016-17
+29,WAS,Washington Wizards,82,49,33,265.4,23.9,3.0,46.4,2016-17

@@ -1,0 +1,31 @@
+,team_abbr,team,G,W,L,passes_made,asst,secondary_asst,potential_asst,year
+0,ATL,Atlanta Hawks,82,60,22,324.3,25.7,3.9,50.8,2014-15
+1,BOS,Boston Celtics,82,40,42,304.9,24.5,2.7,51.3,2014-15
+2,BKN,Brooklyn Nets,82,38,44,273.0,20.9,2.5,44.9,2014-15
+3,CHA,Charlotte Hornets,82,33,49,301.5,20.2,3.5,42.4,2014-15
+4,CHI,Chicago Bulls,82,50,32,304.0,21.7,3.2,46.1,2014-15
+5,CLE,Cleveland Cavaliers,81,53,28,289.4,22.2,3.2,42.8,2014-15
+6,DAL,Dallas Mavericks,82,50,32,307.3,22.5,3.0,47.1,2014-15
+7,DEN,Denver Nuggets,82,30,52,264.1,21.8,2.6,48.7,2014-15
+8,DET,Detroit Pistons,82,32,50,272.3,21.6,2.6,44.7,2014-15
+9,GSW,Golden State Warriors,82,67,15,306.6,27.4,3.4,50.4,2014-15
+10,HOU,Houston Rockets,81,55,26,299.1,22.2,3.0,47.9,2014-15
+11,IND,Indiana Pacers,82,38,44,311.1,21.4,3.6,48.1,2014-15
+12,LAC,Los Angeles Clippers,82,56,26,294.0,24.8,4.1,48.2,2014-15
+13,LAL,Los Angeles Lakers,82,21,61,270.3,20.9,1.9,43.5,2014-15
+14,MEM,Memphis Grizzlies,82,55,27,309.0,21.7,3.4,46.2,2014-15
+15,MIA,Miami Heat,81,36,45,304.0,19.7,2.6,44.1,2014-15
+16,MIL,Milwaukee Bucks,81,40,41,287.4,23.6,3.4,48.1,2014-15
+17,MIN,Minnesota Timberwolves,81,16,65,277.7,21.6,2.4,46.7,2014-15
+18,NOP,New Orleans Pelicans,82,45,37,270.7,22.0,1.9,43.9,2014-15
+19,NYK,New York Knicks,81,17,64,362.4,21.3,2.8,47.9,2014-15
+20,OKC,Oklahoma City Thunder,82,45,37,271.0,20.5,1.9,43.0,2014-15
+21,ORL,Orlando Magic,82,25,57,279.0,20.6,2.5,43.0,2014-15
+22,PHI,Philadelphia 76ers,82,18,64,326.4,20.5,2.1,46.9,2014-15
+23,PHX,Phoenix Suns,82,39,43,288.6,20.2,2.0,43.8,2014-15
+24,POR,Portland Trail Blazers,82,51,31,287.6,21.9,3.2,47.2,2014-15
+25,SAC,Sacramento Kings,82,29,53,284.0,20.3,1.9,42.1,2014-15
+26,SAS,San Antonio Spurs,82,55,27,342.4,24.4,4.2,47.7,2014-15
+27,TOR,Toronto Raptors,82,49,33,275.1,20.7,2.6,40.3,2014-15
+28,UTA,Utah Jazz,82,38,44,364.1,19.9,2.7,46.3,2014-15
+29,WAS,Washington Wizards,82,46,36,299.5,24.0,2.7,48.0,2014-15
