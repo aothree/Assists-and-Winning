@@ -7,5 +7,19 @@ Since the mid 80s, the pass seemingly became un-cool.  Cool was crossovers and m
   <img src="https://github.com/aothree/Passing-in-Basketball/blob/main/Visuals/Assists%20per%20game%20line%20chart.png"/>
 </p>
 
-This projects investigates passing and asks does passing more lead to winning more?  We'll scrape historical data from NBA and NCAA Division I Mens Basketball games and compile statistics into a dataframe to be analyzed.  We will measure passing through "assists".  This is not a perfect measurement of total passing, but logically a high number of assists should indicate a higher rate of passing.  
+This projects investigates passing and asks does passing more lead to winning more?  
+
+Method
+
+Scrape all NBA team statistics from 1980-2022 from https://www.basketball-reference.com, clean and merge these statistics into a dataframe.  
+
+Results
+
+1. A higher number of assists surprisingly does not lead to a higher winning %.  
+
+2.  Even more surprising is the data shows the opposite:
+
+* The teams in the 75th percentile and better for `Assists per game` have a collective winning % of .477 (the equivalent of winning 39 games).
+
+* The teams in the 25th percentile or worst for `Assists per game` have a collective winning % of .589 (the equivalent of winning 48 games).
 
