@@ -33,5 +33,16 @@ Scrape all NBA team statistics from 1980-2022 from https://www.basketball-refere
 
 * The teams in the 25th percentile or worst for `Assists per game` have a collective winning % of .589 (the equivalent of winning 48 games).
 
-3. Total passes are down since that epic '13-'14 Spurs team.  
+3. `Total Passes` are down since that epic '13-'14 Spurs team.  
 
+<p align="center">
+  <img src="https://github.com/aothree/Assists-and-Winning/blob/main/Visuals/Passer%20per%20game.png"/>
+</p>
+
+However...
+
+4. Despite passes being down, `Secondary Assists` are up.  Maybe this is a nod to the impression that Spurs team left on the league.  Teams may not be moving the ball as much as they were 8 years ago, but when it does move, it pings around more in Spurs-ian fashion.  Passing up good looks for great ones. The rise of the three-pointer has no doubt aided this.  Teams are on the hunt for an open three most possessions, pinging the ball aroung the perimeter, trying to stay one step ahead of defensive rotations. This style of play leads to more secondary assists.  
+
+<p align="center">
+  <img src="https://github.com/aothree/Assists-and-Winning/blob/main/Visuals/Secondary%20Assists%20Per%20Game.png"/>
+</p>
